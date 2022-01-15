@@ -4,10 +4,10 @@ import React, { useReducer } from 'react'
 
 const initState = {
     modalState: false,
-    selectedItems: localStorage.getItem("cart").length > 0 ? JSON.parse(localStorage.getItem("cart")) : [],
-    totalItems: localStorage.getItem("cart").length > 0 ?
+    selectedItems: (localStorage.getItem("cart") && localStorage.getItem("cart").length > 0) ? JSON.parse(localStorage.getItem("cart")) : [],
+    totalItems: (localStorage.getItem("cart") && localStorage.getItem("cart").length > 0) ?
         JSON.parse(localStorage.getItem("cart")).reduce((total, product) => total + Number(product.count), 0) : 0,
-    totalPrice: localStorage.getItem("cart").length > 0
+    totalPrice: (localStorage.getItem("cart") && localStorage.getItem("cart").length > 0)
         ? JSON.parse(localStorage.getItem("cart")).reduce((total, product) => total + (product.price) * product.count, 0).toFixed(2) : 0,
     checkOut: false
 }
