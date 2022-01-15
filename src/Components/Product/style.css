@@ -1,0 +1,66 @@
+.animals-product-items {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 18px;
+    padding: 40px;
+    margin-top: 50px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    width: 23%;
+}
+
+.animals-product-items:hover {
+    transform: perspective(100px) translateZ(5px) !important;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+.animals-items-img {
+    width: 180px;
+}
+
+@media screen and (max-width: 1200px) {
+    .animals-items-img {
+        width: 13vw;
+    }
+}
+
+@media only screen and (max-width: 997.98px) {
+    .animals-product-items {
+        width: 45%;
+    }
+
+    .animals-items-img {
+        width: 30vw;
+    }
+
+    .animals-items {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .animals-product-items:hover {
+        transform: perspective(100px) translateZ(0.5px) !important;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.12) !important;
+    }
+}
+
+
+@media screen and (max-width: 767.98px) {
+
+
+
+    .animals-product-items {
+        width: 49%;
+    }
+
+    .animals-items {
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 480px) {
+    .animals-product-items{
+        width: 100%;
+    }
+    .animals-product-items img{
+        width: 250px;
+    }
+}

@@ -1,0 +1,45 @@
+.animals-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.catalog-filter-active {
+    background-color: #a5c926 !important;
+    border: 0;
+    outline: 0 !important;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.catalog-filter-product {
+    border: 0;
+    outline: 0 !important;
+    background-color: inherit;
+    font-size: 13px;
+    font-family: VarelaRound;
+    margin-left: 20px;
+}
+
+.catalog-filter-product:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 767.98px) {
+    .animals-header {
+        justify-content: center;
+    }
+
+    .animals-header h2 {
+        display: none;
+    }
+
+    .border {
+        margin-top: 20px;
+    }
+
+    .border::before {
+        display: none;
+    }
+}

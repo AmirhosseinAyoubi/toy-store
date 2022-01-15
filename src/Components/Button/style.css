@@ -1,0 +1,12 @@
+.instagram-btn {
+    padding: 12px 30px;
+    background-color: #a5c926;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 50px 0;
+
+  }
+  .instagram-btn:hover {
+    box-shadow: 0px 2px 10px rgba(165, 201, 38, 0.5);
+  }

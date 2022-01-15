@@ -1,0 +1,26 @@
+.instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 997.98px) {
+
+
+    .instagram {
+        width: 80%;
+        margin: 0 auto;
+    }
+}    
+
+
+
+@media screen and (max-width: 767.98px) {
+
+
+    .instagram {
+        width: 100%;
+    }
+}
+

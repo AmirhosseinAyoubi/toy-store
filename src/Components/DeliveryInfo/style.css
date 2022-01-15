@@ -1,0 +1,120 @@
+.delivery-body-content {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 80px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+
+.delivery-body-content-description {
+    width: 70%;
+}
+
+.delivery-body-content-description h1 {
+    font-size: 30px;
+    font-family: VarelaRound;
+    margin-bottom: 30px;
+}
+
+.delivery-body-content-description h2 {
+    font-size: 28px;
+    font-family: VarelaRound;
+    margin: 30px 0;
+}
+
+.delivery-body-content-description h3 {
+    font-size: 25px;
+    font-family: VarelaRound;
+    margin: 30px 0;
+}
+
+.delivery-body-content-description h4 {
+    font-size: 23px;
+    font-family: VarelaRound;
+    margin: 30px 0;
+}
+
+.delivery-body-content-description ul {
+    padding-left: 30px;
+    margin: 30px;
+}
+
+.answer-box {
+    width: 30%;
+    margin-left: 30px;
+} 
+.answer-box-content a{
+    color: #fff !important;
+}
+
+.answer-box-content {
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid rgb(224, 224, 224);
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.answer-box-content p {
+    font-family: VarelaRound;
+}
+
+p,
+li {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 967.98px) {
+    .delivery-body-content {
+        flex-direction: column;
+    }
+
+    .delivery-body-content-description {
+        width: 100%;
+    }
+
+    .answer-box {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .answer-box-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .answer-box-content p {
+        margin: 0;
+        margin-right: 30px;
+    }
+
+    .subscribe-btn {
+        width: 150px !important;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .delivery-body-content {
+        padding: 40PX;
+    }
+
+    .answer-box-content {
+        flex-direction: column;
+    }
+
+    .answer-box-content p {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .subscribe-btn {
+        width: 150px !important;
+    }
+}

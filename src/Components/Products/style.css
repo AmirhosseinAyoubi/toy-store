@@ -1,0 +1,35 @@
+.animals-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.animals-items:after{
+    content: "";
+    flex: 0 0 50%;
+
+  }
+
+.animals-items a {
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animals-items a p:nth-of-type(1) {
+    color: #333;
+    font-family: VarelaRound;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.animals-items a p:nth-of-type(2) {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 10px;
+    background-color: #a5c926;
+    border-radius: 20px;
+    padding: 5px 15px;
+}

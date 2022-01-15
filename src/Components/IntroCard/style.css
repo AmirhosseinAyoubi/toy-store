@@ -1,0 +1,78 @@
+.business-body {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.business-body:last-of-type{
+    flex-direction: row-reverse;
+}
+.business-border {
+    width: 70px;
+    height: 2px;
+    background-color: rgba(165, 201, 38, 0.8);
+    margin: 20px 0;
+}
+
+.business-description {
+    width: 40%;
+    align-self: center;
+}
+
+.business-img-container {
+    width: 50%;
+}
+
+.business-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.business-description h2 {
+    font-family: VarelaRound;
+    font-size: 30px;
+}
+
+.business-description p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #999;
+    margin: 25px 0;
+}
+
+.business-btn {
+    padding: 15px 30px;
+    background-color: #a5c926;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.business-btn:hover {
+    box-shadow: 0px 2px 10px rgba(165, 201, 38, 0.5);
+}
+
+@media only screen and (max-width: 997.98px) {
+
+
+    .business-body {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .business-body:last-of-type{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .business-description {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .business-img-container {
+        width: 90%;
+    }
+}

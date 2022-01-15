@@ -1,0 +1,15 @@
+.product-row-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px ;
+    padding-bottom: 50px;
+  }
+  @media only screen and (max-width: 997.98px) {
+    .product-row-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 100px 0;
+  }
+  }

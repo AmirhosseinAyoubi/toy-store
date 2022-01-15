@@ -1,0 +1,44 @@
+.border {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative;
+    border: none !important;
+  }
+  .border::before {
+    content: "";
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(165, 201, 38);
+    z-index: 200;
+  }
+  .animals-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .animals-header h2 {
+    font-family: VarelaRound;
+    font-size: 27px;
+  }
+  .see-all-btn {
+    
+    border: none;
+    outline: none !important;
+    background-color: inherit;
+    font-size: 13px;
+    font-family: VarelaRound;
+    height: 25px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    transition: border 0.5s;
+    color: black !important;
+    text-decoration: none !important;
+  }
+  .see-all-btn:hover {
+    border-bottom: 2px solid rgba(165, 201, 38, 1);
+  }

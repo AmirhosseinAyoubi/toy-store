@@ -1,0 +1,139 @@
+.stuffed {
+  background-color: #ffc12c;
+  height: 180px;
+  width: 49%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.stuffed-content {
+  width: 70%;
+  align-self: center;
+  color: white;
+  padding-right: 20px;
+  padding-left: 100px;
+  text-align: center;
+}
+
+.stuffed-content h2 {
+  font-size: 27px;
+  font-family: VarelaRound;
+}
+
+.stuffed-img-container {
+  width: 40%;
+  margin-right: 20px;
+}
+
+.stuffed-img {
+  width: 200px;
+  position: absolute;
+  top: -50px;
+  height: auto;
+}
+
+.wooden {
+  background-color: #fb416b;
+  width: 49%;
+  height: 180px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.btn-product {
+  background-color: #fff ;
+  text-decoration: none  !important;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 700;
+  color: black !important;
+}
+
+.btn-product:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.12);
+}
+
+.wooden-content {
+  padding-right: 20px;
+  width: 70%;
+  align-self: center;
+  color: white;
+  text-align: center;
+  padding-left: 100px;
+}
+
+.wooden-content h2 {
+  font-size: 27px;
+  font-family: VarelaRound;
+}
+
+.wooden-img-container {
+  width: 40%;
+  margin-left: 20px;
+}
+
+.wooden-img {
+  width: 200px;
+  position: absolute;
+  top: -50px;
+  height: auto;
+}
+
+@media only screen and (max-width: 997.98px) {
+
+
+  .wooden,
+  .stuffed {
+    width: 60%;
+    margin-bottom: 50px;
+  }
+
+  .wooden-img,
+  .stuffed-img {
+    width: 170px;
+    top: -20px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+
+  .wooden,
+  .stuffed {
+      width: 80%;
+      /* height: 270px; */
+      margin-bottom: 50px;
+    
+  }
+
+}
+@media screen and (max-width:480px) {
+  .wooden,
+  .stuffed {
+      width: 100%;
+      height: 270px;
+      margin-bottom: 50px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .wooden-img,.stuffed-img{
+    width: 200px;
+    top: -20%;
+  }
+  .wooden-img-container,.stuffed-img-container{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .wooden-content,.stuffed-content{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    padding: 0rem;
+  }
+}

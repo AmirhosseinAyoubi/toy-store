@@ -1,0 +1,63 @@
+.video {
+  background-image: linear-gradient(179deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)),
+    url("https://assets.website-files.com/5badda2935e11303a89a461e/5baf3d57ace69c149bb331b8_tim-gouw-165547-unsplash.jpg");
+  width: 100%;
+  background-position: 0 0, 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll, fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.video-play-btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #a5c926;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+}
+
+.video-title1 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.video-title2 {
+  font-size: 35px;
+  font-family: VarelaRound;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.video-description {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media only screen and (max-width: 997.98px) {
+
+
+  .video-content {
+    width: 85%;
+  }
+}

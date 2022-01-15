@@ -1,0 +1,127 @@
+.index-bottom-nav {
+  background-color: #fff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  
+  /* z-index: 1000000; */
+}
+
+.toy-store {
+  font-family: VarelaRound;
+  display: inline-block;
+  margin-right: 50px;
+  margin-bottom: 0;
+  color: #111111 !important;
+  font-size: 22px;
+  text-decoration: none !important;
+}
+
+.navbar-item {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-content li {
+  display: inline-block;
+}
+
+.shopping-cart {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-item li {
+  margin-right: 30px;
+}
+
+.navbar-item li a {
+  color: #111111;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.shopping-cart li {
+  margin-left: 5px;
+}
+
+.shopping-cart-badge {
+  background-color: #a5c926;
+}
+
+.collaps {
+  width: 3.5rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 15px;
+  display: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+}
+
+.show {
+  height: auto;
+  overflow: visible;
+
+
+
+}
+
+@media only screen and (min-width: 998px) {
+  .navbar-links {
+    display: block !important;
+
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 997.98px) {
+  .navbar-links {
+    position: absolute;
+    top: 6.5rem;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+    height: 0;
+    overflow: hidden;
+
+  }
+
+  .navbar-links li {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .collaps {
+    display: flex;
+  }
+
+  .header {
+    height: 6rem;
+  }
+  .toy-store {
+    font-size: 20px;
+}
+}
+.show {
+  height: auto;
+  overflow: visible;
+
+}

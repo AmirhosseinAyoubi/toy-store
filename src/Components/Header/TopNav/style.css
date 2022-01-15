@@ -1,0 +1,50 @@
+.top-nav {
+    background-color: #a5c926;
+}
+
+.top-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.top-nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    border-radius: 100%;
+    transition: all 0.2s;
+}
+
+.top-nav-content {
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.communication li {
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.social-media li {
+    width: 30px;
+    height: 30px;
+}
+
+.social-media li img {
+    width: 17px;
+    height: 17px;
+}
+
+.social-media li:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+@media screen and (max-width: 489.98px) {
+    .pointer{
+        display: none !important;
+    }
+  }

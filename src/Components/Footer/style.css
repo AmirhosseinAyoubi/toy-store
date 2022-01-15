@@ -1,0 +1,118 @@
+.footer {
+    background-color: #a5c926;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+    border-bottom: 1px solid rgba(208, 214, 186, 0.5);
+    flex-wrap: wrap;
+}
+
+.footer-menu div h2 a {
+    color: #fff !important;
+    font-size: 20px;
+    font-family: VarelaRound;
+    text-decoration: none;
+}
+
+.footer-menu-items ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-items ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.footer-menu-items ul li a {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-menu-communication ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-communication ul li {
+    list-style-type: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+.footer-menu-communication ul li img {
+    width: 22px;
+    height: 22px;
+  }
+  .footer-menu-communication ul li:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+  
+  .footer-communication {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+  }
+  .footer-communication p {
+    color: #fff;
+    font-size: 12px;
+    font-family: VarelaRound;
+  }
+  .footer-communication p a {
+    color: #fff !important;
+    font-size: 12px;
+    text-decoration: underline;
+    font-family: VarelaRound;
+  }
+  .footer-communication ul {
+    display: flex;
+  }
+  .footer-communication ul li {
+    margin-left: 5px;
+    list-style-type: none;
+  }
+  .footer-communication ul li a {
+    text-decoration: underline;
+    color: #fff !important;
+    font-size: 12px;
+    font-family: VarelaRound;
+  }
+  .footer-communication ul li {
+    color: #fff;
+    font-size: 12px;
+    font-family: VarelaRound;
+  }
+
+
+@media only screen and (max-width: 997.98px) {
+
+ 
+  .footer-menu-communication {
+      width: 100%;
+  }
+
+  .footer-menu-communication ul {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .footer-menu-communication ul li:last-of-type {
+      margin: 0;
+  }
+
+  .footer-menu-items ul li:last-of-type {
+      margin: 0;
+  }
+}
