@@ -8,7 +8,8 @@ export default function ProductsContextProvider({ children }) {
 
     useEffect(() => {
         const fetchData = async () => {
-             setproducts(await get("products").then(res=>res.products))
+            const res = await get("products")
+            setproducts(await res.products)
         }
         fetchData()
     }, []);
